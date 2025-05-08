@@ -1,3 +1,9 @@
+# !!
+Please put the indi_shop folder under htdocs: ...../htdocs/indi_shop/
+That is to say, if the path is correct, this file is located at: ...../htdocs/indi_shop/README.md
+
+请将indi_shop文件夹置于htdocs下：...../htdocs/indi_shop/
+也就是说如果路径正确，那么本文件位于：...../htdocs/indi_shop/README.md
 # Part A 
 ## Functions: 
 Manage products; 
