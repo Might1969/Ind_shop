@@ -1,3 +1,4 @@
+github:https://github.com/Might1969/Ind_shop
 # !!
 Please put the indi_shop folder under htdocs: ...../htdocs/indi_shop/
 That is to say, if the path is correct, this file is located at: ...../htdocs/indi_shop/README.md
