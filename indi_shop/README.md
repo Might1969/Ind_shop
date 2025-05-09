@@ -38,8 +38,11 @@ Practice001 is located in indi_shop/ProjectAssgn-Ind-PartB-01, and you need to c
 Access localhost/indi_shop/ProjectAssgn-Ind-PartB-01/index.php through a browser
 
 ## For Practice005:
-The program has the following path by default: htdocs/indi_shop/ProjectAssgn-Ind-PartB-05/includes/reset-request.inc.php
-If you change the path, please make sure that in indi_shop/ProjectAssgn-Ind-PartB-05/includes/reset-request.inc.php, line 15: $url = "http://".$_SERVER['HTTP_HOST']."/indi_shop/ProjectAssgn-Ind-PartB-05/create-new-password.php?selector=".$selector."&validator=".$validator; the path can correctly lead to ProjectAssgn-Ind-PartB-05/create-new-password.php, otherwise the reset password link will cause the URL to be unable to be found
+1. If you download this project from GitHub instead of downloading the compressed package directly, please download phpmailer to indi_shop\ProjectAssgn-Ind-PartB-05\vendor\
+The following directory should exist at the end...\htdocs\indi_shop\ProjectAssgn-Ind-PartB-05\vendor\phpmailer\phpmailer\src
+
+2. The program has the following path by default htdocs/indi_shop/ProjectAssgn-Ind-PartB-05/includes/reset-request.inc.php
+If you change the path, please make sure that in indi_shop/ProjectAssgn-Ind-PartB-05/includes/reset-request.inc.php, line 15 $url = "http://".$_SERVER['HTTP_HOST']."/indi_shop/ProjectAssgn-Ind-PartB-05/create-new-password.php?selector=".$selector."&validator=".$validator; The path can correctly lead to ProjectAssgn-Ind-PartB-05/create-new-password.php, otherwise the password reset link will cause the url to be unable to be found
 
 ## 位置：
 part B 第N个练习的文件位于indi_shop/ProjectAssgn-Ind-PartB-0N
@@ -56,5 +59,8 @@ Practice001位于indi_shop/ProjectAssgn-Ind-PartB-01,需要创建数据库“b01
 通过浏览器访问localhost/indi_shop/ProjectAssgn-Ind-PartB-01/index.php
 
 ## 对于Practice005：
-程序默认存在以下路径htdocs/indi_shop/ProjectAssgn-Ind-PartB-05/includes/reset-request.inc.php
+1. 如果您通过github下载本项目而非直接下载压缩包，请自行下载phpmailer到indi_shop\ProjectAssgn-Ind-PartB-05\vendor\
+最后应该存在以下目录...\htdocs\indi_shop\ProjectAssgn-Ind-PartB-05\vendor\phpmailer\phpmailer\src
+
+2. 程序默认存在以下路径htdocs/indi_shop/ProjectAssgn-Ind-PartB-05/includes/reset-request.inc.php
 如果你修改了路径，请确保indi_shop/ProjectAssgn-Ind-PartB-05/includes/reset-request.inc.php中第15行$url = "http://".$_SERVER['HTTP_HOST']."/indi_shop/ProjectAssgn-Ind-PartB-05/create-new-password.php?selector=".$selector."&validator=".$validator;路径能正确导向ProjectAssgn-Ind-PartB-05/create-new-password.php，否则重置密码链接会导致无法找到url
